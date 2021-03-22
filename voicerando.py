@@ -18,6 +18,8 @@
 
 #CHANGELOG
 #
+#V1.2
+#Added automatic download for KH2FM_Toolkit, and option to create both a mod and a patch.
 #V1.1
 #Added automatic .kh2patch creation (Using KH2FM Toolkit), and OpenKH Mod creation (By making the mod.yml and zipping everything)
 
@@ -336,7 +338,7 @@ while True:
                 zipped.close()
                 os.remove("KH2FM_Toolkit.zip")
             else:
-                raw_input("\nDownload failed.\nCheck your Internet connection, or Govanify's Repository at:\nhttps://code.govanify.com/govanify/KH2FM_Toolkit \n\nPress any key to go back to the previous menu...")
+                raw_input("\nDownload failed.\nCheck your Internet connection, or Govanify's Repository at:\nhttps://code.govanify.com/govanify/KH2FM_Toolkit \nTry the process again, and if this problem persists, please download it manually from the above link.\n\nPress any key to go back to the previous menu...")
                 continue
         print("\nCreating mod... Please wait a bit...")
         OpenKH()

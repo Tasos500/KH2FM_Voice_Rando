@@ -1,4 +1,4 @@
-# KH2FM_Voice_Rando
+# KH2FM Voice Randomizer
 A Python script that randomizes voice files and creates a patch or mod for use in KH2FM.
 
 # How to use
